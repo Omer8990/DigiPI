@@ -1,0 +1,48 @@
+// File structure
+/*
+src/
+├── components/
+│   ├── layout/
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   └── MainLayout.jsx
+│   ├── auth/
+│   │   ├── LoginForm.jsx
+│   │   └── RegisterForm.jsx
+│   ├── marketplace/
+│   │   ├── ListingCard.jsx
+│   │   ├── ListingGrid.jsx
+│   │   ├── ListingDetail.jsx
+│   │   ├── CreateListingForm.jsx
+│   │   └── SearchFilters.jsx
+│   ├── user/
+│   │   ├── Profile.jsx
+│   │   ├── Dashboard.jsx
+│   │   └── TransactionHistory.jsx
+│   └── common/
+│       ├── Button.jsx
+│       ├── FileUpload.jsx
+│       └── PiPaymentButton.jsx
+├── pages/
+│   ├── HomePage.jsx
+│   ├── LoginPage.jsx
+│   ├── RegisterPage.jsx
+│   ├── ListingDetailPage.jsx
+│   ├── CreateListingPage.jsx
+│   ├── UserDashboardPage.jsx
+│   └── TransactionsPage.jsx
+├── services/
+│   ├── api.js
+│   ├── auth.js
+│   ├── listings.js
+│   └── transactions.js
+├── utils/
+│   ├── piPayment.js
+│   └── fileUpload.js
+├── contexts/
+│   ├── AuthContext.jsx
+│   └── NotificationContext.jsx
+├── App.jsx
+└── index.jsx
+*/
+

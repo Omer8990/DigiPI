@@ -1,0 +1,1 @@
+# app/schemas is pydantic schemas for request/response validation
